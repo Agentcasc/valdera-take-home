@@ -28,7 +28,7 @@ Get a free SerpAPI key at: https://serpapi.com
 
 ### 3. Run Searches
 
-**Simple Terminal Usage:**
+**Simple Terminal Usage: (please follow deploy.md if wanting to deploy to a container/cloud instance)**
 ```bash
 python3 search.py "Chemical Name" "CAS-Number"
 ```

@@ -15,7 +15,6 @@ The system is designed as a FastAPI application that can be deployed using sever
 ### Required
 - Python 3.11+
 - SerpAPI key (sign up at https://serpapi.com)
-- 2GB+ RAM (for AI models)
 - Internet access for web scraping
 
 ### Optional

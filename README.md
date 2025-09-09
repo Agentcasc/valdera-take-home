@@ -4,16 +4,24 @@ An AI-powered system that finds chemical suppliers with verified evidence of pro
 
 ## Quick Start
 
-### 1. Setup (Already Done)
+### 1. Setup 
 ```bash
-# Dependencies are already installed
-# Playwright browsers are already installed
+# Create and activate a virtual environment
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install --upgrade pip
+pip install -r requirements.txt
+
 ```
 
 ### 2. Add Your API Key
 Edit your `.env` file and add your SerpAPI key:
 ```bash
-SERPAPI_KEY=your_actual_serpapi_key_here
+SERPAPI_KEY=key
+(optional)
+COHERE_API_KEY=key
 ```
 
 Get a free SerpAPI key at: https://serpapi.com
@@ -98,11 +106,7 @@ vald/
 
 | Service | Purpose | Cost | Required |
 |---------|---------|------|----------|
-| [SerpAPI](https://serpapi.com) | Google search results | Free: 100/month, Paid: $50/5K | **Required** |
-| [Hunter.io](https://hunter.io) | Email discovery | Free: 50/month | Optional |
-| [NeverBounce](https://neverbounce.com) | Email verification | Pay-per-use | Optional |
-
-*Note: Agent works with just SerpAPI. Email APIs improve contact discovery.*
+| [SerpAPI](https://serpapi.com) | Google search results | Free: 100/month, Paid: $50/5K | 
 
 ## Example Output
 
